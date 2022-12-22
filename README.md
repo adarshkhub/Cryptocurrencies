@@ -14,16 +14,16 @@ Accountability Accounting is interested in breaking into the cryptocurrency mark
 ## Process/Results
 
 
-###Preprocessing the data
+### Preprocessing the data
 In order to get the data ready for the algorithm, we clean up colums and rows that won't be applicable, create numerical variables for text features so that it can pass through the algorithm, and scale the data using StandardScaler.
 
 
-###Reducing Data Dimensions Using PCA
+### Reducing Data Dimensions Using PCA
 While PCA itself is pretty complex mathematically, we can apply it by simply importing it from the sk-learn library.
 
-###Clustering the Cryptocurrencies using K-Means
+### Clustering the Cryptocurrencies using K-Means
 Using the elbow curve, we find that k=4 seems to be optimal.
 
-###Visualizing the Cryptocurrency Results
+### Visualizing the Cryptocurrency Results
 
 In order to display the data in an easier to interpret way, we created a 3-D scatterplot.
